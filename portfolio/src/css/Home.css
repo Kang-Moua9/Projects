@@ -1,0 +1,41 @@
+.Home {
+  text-align: center;
+}
+
+.portraitGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 72px;
+}
+
+#portraitHome {
+  min-height: 200px;
+  min-width: 200px;
+  max-height: 500px;
+  max-width: 500px;
+  object-fit: cover;
+  object-position: 0% 30%;
+  border-radius: 100%;
+}
+
+#firstName {
+  margin-bottom: 15%;
+  margin-right: 5%;
+  color: rgba(0, 0, 0, 0.66)
+}
+
+#lastName {
+  margin-top: 15%;
+  margin-left: 5%;
+  color: rgba(0, 0, 0, 0.66)
+}
+
+#email {
+  font-size: 24px;
+}
+
+#welcome {
+  font-size: 48px;
+  font-weight: normal;
+}

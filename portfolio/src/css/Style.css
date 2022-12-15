@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 24px;
+    background-color: #E9FFD0;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: min(10%, 200px);
+    margin-right: min(10%, 200px);
+  }

@@ -1,0 +1,55 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contactForm {
+    display: grid;
+    grid-template-columns: 0.45fr;
+    justify-content: center;
+    margin: 50px;
+    height: 60vh;
+}
+
+.label {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    grid-template-columns: 135px;
+    padding: 10px;
+}
+
+#field {
+    background-color: #deebd1;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin-left: min(10%, 200px);
+    margin-right: min(10%, 200px);
+}
+
+#submitButton {
+    border-radius: 100px;
+    background-color: #E9FFD0;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
+    margin: 10px;
+}
+
+label {
+    text-align: left;
+    grid-column-start: 1;
+    white-space: nowrap;
+}
+
+.txtField {
+    grid-column-start: 2;
+    height: 40px;
+    margin: 10px;
+    font-size: 24px;
+    width: 90%;
+}

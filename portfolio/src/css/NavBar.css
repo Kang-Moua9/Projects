@@ -1,0 +1,22 @@
+.NavBar {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+#navi {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  font-size: 24px;
+  background-color: #E9FFD0;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  width: 100vw;
+}
