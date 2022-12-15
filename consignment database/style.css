@@ -1,0 +1,210 @@
+/*
+    style.css - Style page for project
+    Written by Kang Moua
+    Revised: 12/01/2022
+-->
+*/
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(224, 206, 175);
+}
+
+#naviTwo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(236, 161, 161);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    color: black;
+    text-shadow: white 3px 3px 2px;
+    outline: 3px cornsilk solid;
+}
+
+footer {
+    margin-top: 200px;
+    text-align: center;
+    bottom: 0%;
+    width: 98.6%;
+    position: fixed;
+}
+
+h2 {
+    border-bottom: 3px rgb(236, 161, 161) solid;
+}
+
+.main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    justify-items: center;
+    background: rgb(218, 147, 147);
+    border-radius: 10px;
+}
+
+.image {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    justify-items: center;
+}
+
+#imgIndex {
+    height: 80%;
+    width: 40%;
+}
+
+.navi {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: underline;
+    margin:3%;
+}
+
+#navi {
+    color: rgb(34, 34, 34);
+}
+
+.text {
+    grid-row-start: 1;
+    margin-right: 50px;
+    line-height: 25px;
+    width: 800px;
+}
+
+img {
+    width: 200px;
+}
+
+/* Form Styles */
+
+.topLabel {
+    display: inline-block;
+    margin: 0px 5px 10px 0px;
+}
+
+.topLabel label {
+    display: block;
+}
+
+input[type=text] {
+    font-size: 1em;
+    padding: 5px;
+    margin: 0px;
+    max-width: 170px;
+    display: inline;
+}
+
+select {
+    font-size: 1.2em;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 5px;
+}
+
+#deleteButton {
+    font-weight: bold;
+    background-color: black;
+    border: 2px #e8368f solid;
+    color: rgb(255, 150, 150);
+}
+
+#updateButton {
+    font-weight: bold;
+    background-color: black;
+    border: 2px #e8368f solid;
+    color: rgb(150, 150, 245);
+}
+
+#addButton {
+    font-weight: bold;
+    background-color: black;
+    border: 2px #e8368f solid;
+    color: rgb(150, 255, 150);
+}
+
+fieldset {
+    color: black;
+    background-color: rgb(236, 161, 161);
+    font-weight: bold;
+    border: 3px solid #e8368f;
+}
+
+
+/* Table Styles */
+
+.consignorTable {}
+
+table {
+    width: 100%;
+    outline: 2px white solid;
+}
+
+td,
+th {
+    padding: 5px 20px;
+    background: white;
+    color: black;
+    outline: 2px black solid;
+}
+
+th {
+    background: rgb(236, 161, 161);
+    color: black;
+    font-size: large;
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: fuchsia;
+}
+
+/* Style for readMe.html */
+
+.mainRM {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.textRM {
+    grid-row-start: 1;
+    margin-right: 50px;
+    line-height: 25px;
+    width: 800px;
+}
+
+a {
+    cursor:pointer;
+}
+
+#title {
+    text-decoration: none;
+    color: black;
+    text-shadow: white 3px 3px 2px;
+}
